@@ -18,8 +18,9 @@ from lib.telebot import Telebot
 
 '''
 def main():
-    tele = Telebot()
-    tele.run()
+    bot = Telebot()
+    print 'Starting Telegram Bot Server'
+    bot.run()
 
 if __name__ == "__main__":
     main()
